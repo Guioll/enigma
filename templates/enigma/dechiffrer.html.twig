@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    Ici ça déchiffrera !
+    {{ form_start(msgForm) }}
+    {{ form_widget(msgForm) }}
+    <button>Ajouter</button>
+    {{ form_end(msgForm) }}
+{% endblock %}
+

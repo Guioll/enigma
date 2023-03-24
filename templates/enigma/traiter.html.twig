@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    Entrez le message à traiter
+    {{ form_start(msgForm) }}
+    {{ form_widget(msgForm) }}
+    <button>Ajouter</button>
+    {{ form_end(msgForm) }}
+{% endblock %}
